@@ -1,0 +1,36 @@
+//  Ejemplo de uso de arreglos 
+
+1.  Inicio
+
+2.  (notasEstudiante(3),i[0-n])
+3.  (notasEstudianteCualitativo(3), x(20)[{a-z}, {BS}])
+4.  indice, i[0-n]<--0
+5.  notasEstudiante[0] <-- 8
+6.  notasEstudiante[1] <-- 9
+7.  notasEstudiante[2] <-- 10
+
+8.  Mientras ( indice<3 ) entonces
+9.    Si notasEstudiante[i]>5 entonces
+10.     notasEstudianteCualitativo[i] <- "Buena"
+11.     indice <-- indice + 1
+
+12.   Caso Contrario
+13.     notasEstudianteCualitativo[i] <- "Mala"
+14.         indice <-- indice + 1
+15.   Fin_Si
+
+16. Fin_mientras
+17.  indice <-- 0
+
+18. Mientras (indice<3) entonces
+19.     Escribir notasEstudiante[i], "---" + notasEstudianteCualitativo[i] 
+20.  indice <-- indice  +1
+21. Fin_mientras
+
+22. Fin
+
+
+
+
+
+
